@@ -1,0 +1,102 @@
+body{
+    background-image: url("./images/car.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(48, 32, 13);
+    letter-spacing: 1px; 
+}
+h1,h2{
+    font-size: normal;
+}
+#wrapper{
+    background-color:bisque ;
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 4px;
+    box-shadow: 1px 10px 10px rgb(230, 15, 15);
+    box-sizing: border-box;
+    padding:0px 0px 20px ;
+    overflow: hidden ;
+    border: 1px solid rgb(102, 242, 9);
+}
+.page-banner{
+    background-image: url(./images/car.jpg);
+    background-size: 100%;
+    align-items: center;
+    padding: 10px 0;
+    color: white;
+
+}
+.page-banner h1,
+.page-banner p{
+    text-align:center ;
+    width:100%;
+    margin: 10px 0;
+}
+#Order-Car,
+#Car-Models{
+    margin:30px ;
+}
+#Car-Models ul{
+    list-style: none;
+    padding: 0;
+}
+#Car-Models li{
+    border-left: 50px solid white;
+    padding: 20;
+    margin: 20px 10px;
+}
+#Car-Models li:hover{
+    border-color:rgb(79, 9, 193);
+}
+.delete{
+    float: right;
+    background:red ;
+    color:white ;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.delete:hover{
+    background:rgb(216, 38, 216) ;
+}
+#Order-Car{
+    width: 400px;
+    margin: 0 auto;
+}
+#Order-Car input{
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+    clear: both;
+}
+#Order-Car button{
+    border: 1px solid green;
+    background: green ;
+    padding: 10px 20px;
+    font-size: 14px;
+    display: inline-block;
+    width: 100px;
+    border-radius:0 4px 4px 0;
+    cursor: pointer ;
+    border-left: 0;
+    color: white;
+    margin:20px 0 ;
+}
+#Orde-Car button:hover{
+    background-color: blue;
+}
+#Order-Car:after{
+    content:"";
+    display: block;
+    clear: clear;
+}
+#Orde-Car label{
+    line-height: 52px;
+}
